@@ -22,15 +22,15 @@ pip install numpy==1.26.4
 pip install PyWavelets
 2. Dataset Preparation
 Dataset Directory Structure:
-dataset/
-├── images/
-│ ├── train/
-│ ├── val/
-│ └── test/
-└── labels/
-├── train/
-├── val/
-└── test/
+    dataset/
+    ├── images/
+    │ ├── train/
+    │ ├── val/
+    │ └── test/
+    └── labels/
+    ├── train/
+    ├── val/
+    └── test/
 
 Note: Modify the data paths in your configuration file located at:
 configs/dataset/your_config.yaml
@@ -49,17 +49,17 @@ Plot Results:
 python plot_result.py
 
 Project Structure
-RT-DETR-main/
-├── ultralytics/ # Modified Ultralytics core library
-├── dataset/ # Dataset directory (gitignored)
-├── configs/ # Configuration files
-├── train.py # Training script
-├── val.py # Validation script
-├── detect.py # Detection/Inference script
-├── heatmap.py # Heatmap visualization
-├── plot_result.py # Result plotting script
-├── requirements.txt # List of dependencies
-└── README.md # Project documentation
+     MathExpr-DETR/
+     ├── ultralytics/ # Modified Ultralytics core library
+     ├── dataset/ # Dataset directory (gitignored)
+     ├── configs/ # Configuration files
+     ├── train.py # Training script
+     ├── val.py # Validation script
+     ├── detect.py # Detection/Inference script
+     ├── heatmap.py # Heatmap visualization
+     ├── plot_result.py # Result plotting script
+     ├── requirements.txt # List of dependencies
+     └── README.md # Project documentation
 
 Environment Requirements
 Python >= 3.10
