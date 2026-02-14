@@ -51,7 +51,7 @@ python plot_result.py
 
 # Project Structure
 
-    RT-DETR-main/
+    MathExpr-DETR/
     ├── ultralytics/ # Modified Ultralytics core library
     ├── dataset/ # Dataset directory (gitignored)
     ├── configs/ # Configuration files
